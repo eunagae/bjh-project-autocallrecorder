@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory>
+        <ListPreference
+            android:key="preoutputformat"
+            android:entries="@array/outputformat"
+            android:summary="@string/pref_output_format_summary" 
+            android:entryValues="@array/outputformatValues"
+            android:defaultValue="0"
+            android:title="@string/pref_output_format" />
+    
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefnotify"
+            android:summary="@string/pref_notification_summary"
+            android:title="@string/pref_notification" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:key="prefsavefile"
+            android:entries="@array/savafiles"
+            android:summary="@string/pref_save_day_summary" 
+            android:entryValues="@array/savafilesValues"
+            android:defaultValue="1"
+            android:title="@string/pref_save_day" />
+        
+        <Preference 
+            android:key="preffileexplore"
+            android:summary="녹음 파일이 저장되는 경로선택" 
+            android:title="저장 경로"/>
+        
+        <Preference 
+            android:key="preffileinit"
+            android:summary="녹음 파일이 저장되는 경로 초기화" 
+            android:title="저장 경로 초기화"/>
+        
+        <ListPreference
+            android:key="prefexecutetime"
+            android:entries="@array/executetime"
+            android:summary="@string/pref_executetime_summary" 
+            android:entryValues="@array/executetimeValues"
+            android:defaultValue="1"
+            android:title="@string/pref_executetime" />
+        
+        <Preference 
+            android:key="prefinitailize"
+            android:summary="설정 정보들이 기본값으로 변경됩니다." 
+            android:title="설정 초기화"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

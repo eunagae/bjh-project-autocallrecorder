@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoCallRecorder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="file_explore">file explore</string>
+    
+    <string name="settings">Setting</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <string name="about">About</string>
+	<string name="main_menu">Home</string>
+	<string name="contact">Contact</string>
+	<string name="about_body">Radial Menu Demo Version 1 by Arindam Nath.</string>
+	<string name="contact_body">Contact Details Here!</string>
+	<string name="main_body">Long press any part of the screen to bring up radial menu.</string>
+	<string name="open_menu">Open Menu</string>
+	<string name="normal">Normal</string>
+	<string name="expandable">Expandable</string>
+	<string name="close">Close</string>
+	
+	<string name="action_bar_search">search</string>
+	<string name="action_bar_add">add</string>
+	<string name="action_bar_edit">edit</string>
+	<string name="action_bar_share">share</string>
+	<string name="action_bar_sort">sort</string>
+	<string name="action_bar_sort_size">sort_size</string>
+	<string name="action_bar_sort_alpha">sort_alpha</string>
+	
+	
+	<!-- setting -->
+	<string name="pref_audio_source">오디오 소스</string>
+    <string name="pref_audio_source_summary">오디오 입력 형식 설정</string>
+    
+    <string name="pref_output_format">파일 형식</string>
+    <string name="pref_output_format_summary">음향을 저장할 방식을 설정</string>
+    
+    <string name="pref_notification">알림 표시</string>
+    <string name="pref_notification_summary">전화통화시 녹음 아이콘 표시(녹음은 계속 실행됩니다.)</string>
+    
+    <string name="pref_save_day">저장 기간</string>
+    <string name="pref_save_day_summary">녹음 파일이 저장 되는 기간(이후 자동 삭제)</string>
+    
+    <string name="pref_executetime">실행 시간</string>
+    <string name="pref_executetime_summary">녹음이 실행되어질 시간(발신만 해당)</string>
+	
+
+</resources>
