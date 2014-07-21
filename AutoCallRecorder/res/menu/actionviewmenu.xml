@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/action_bar_search"/>
+    
+    
+
+    <item 
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_action_sort_by_size"
+        android:title="Sort"
+        android:showAsAction="ifRoom">
+        <menu>
+            <item 
+                android:id="@+id/action_sort_size"
+                android:title="최근 통화순"
+                android:onClick="onSort" />
+            <item 
+                android:id="@+id/action_sort_alpha"
+                android:title="이름순"
+                android:onClick="onSort" />
+        </menu>
+	</item> -->
+	<!-- 
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu" /> -->
+    <!--
+    <item android:id="@+id/action_add"
+          android:icon="@android:drawable/ic_menu_add"
+          android:title="@string/action_bar_add"
+          android:showAsAction="collapseActionView" />
+    <item android:id="@+id/action_edit"
+          android:icon="@android:drawable/ic_menu_edit"
+          android:showAsAction="always"
+          android:title="@string/action_bar_edit" />
+    <item android:id="@+id/action_share"
+          android:icon="@android:drawable/ic_menu_share"
+          android:title="@string/action_bar_share"
+          android:showAsAction="ifRoom" /> 
+    <item android:id="@+id/action_sort"
+          android:icon="@android:drawable/ic_menu_sort_by_size"
+          android:title="@string/action_bar_sort"
+          android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/action_sort_size"
+                  android:icon="@android:drawable/ic_menu_sort_by_size"
+                  android:title="@string/action_bar_sort_size"
+                  android:onClick="onSort" />
+            <item android:id="@+id/action_sort_alpha"
+                  android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                  android:title="@string/action_bar_sort_alpha"
+                  android:onClick="onSort" />
+        </menu>
+    </item>
+    -->
+    
+    <item
+        android:id="@+id/action_preferences"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="always"
+        android:title="설정" />
+
+</menu>
